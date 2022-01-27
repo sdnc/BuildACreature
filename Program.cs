@@ -68,39 +68,9 @@ namespace ExquisiteCorpse
       }
     }
     
-    static void TranslateToNumber(string creature)
+    static int TranslateToNumber(string creature)
     {
-      switch (head)
-      {
-        case "ghost":
-        return 1;
-        break;
-        case "monster":
-        return 2;
-        break;
-        case "bug":
-        return 3;
-        break;
-        default:
-        return 1;
-        break;
-      }
-      switch (body)
-      {
-        case "ghost":
-        return 1;
-        break;
-        case "monster":
-        return 2;
-        break;
-        case "bug":
-        return 3;
-        break;
-        default:
-        return 1;
-        break;
-      }
-      switch (feet)
+      switch (creature)
       {
         case "ghost":
         return 1;
